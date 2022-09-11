@@ -1,6 +1,6 @@
 public class LWork2 {
     public static void main(String[] args) {
-        System.out.println("hello my friends");
+        String message = "а это уже новая версия";
 
     }
 }
