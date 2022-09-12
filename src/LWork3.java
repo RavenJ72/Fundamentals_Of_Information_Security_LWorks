@@ -61,37 +61,37 @@ public class LWork3 {
     }
     public static void main(String[] args) {
 
-        String[] alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя,№$)('>< ".split("");
+        String[] alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя".split("");
         int[] matrixKey = {0, 2, 3, 2, 1, 2, 3, 3, 2, 1, 0, 3, 0};
         String[][][] key = {
                 {
-                        "ьаебх)лгпш№нй>дюмкщъ,'эы$зоучвтфёия(<црсж|".split(""),
-                        "мжаэ'лк>я,двю|нчьецёзбъыт)щ<ги№пшоусй$(фрх".split(""),
-                        "lbъiбeatоmuqf)ns№wитcгkdшzhyoj<ыrущgп|зvpx".split(""),
-                        "d№tsmпjaq)ыiгтъ<шозr exиczlщkbofvуwhnyбupg".split(""),
+                        "ьаебхлгпшнйдюмкщъэызоучвтфёияцрсж".split(""),
+                        "мжаэлкядвюнчьецёзбъытщгипшоусйфрх".split(""),
+                        "lbъiбeоmuqfnsитcгkdzhojыrущgпзvpx".split(""),
+                        "dtmпjqыiгтъшозexиczlщkbofvуhnyбpg".split(""),
                 },
                 {
-                        "э<л|созйкшгь№$ч')рунжвцпы(фдаеиёяхмщъ>юб,т".split(""),
-                        "ёбзчалцтх<пюдн№)м(сфв$щшьиъэе|гжоуйр',>кыя".split(""),
-                        "и<)jgзbpvhбпг|№fтnexmiщkzwodlоsшctrъыuyaуq".split(""),
-                        "qtkpxъоjшщh<smvптbegir№ozl)гзиydaы nufwбуc".split(""),
+                        "элсозйкшгьчрунжвцпыфдаеиёяхмщъюбт".split(""),
+                        "ёбзчалцтх<пюднмсфвщшьиъэегжоуйркы".split(""),
+                        "иjgзbphбпгfтnexmikzwodоsctrъыuyуq".split(""),
+                        "qtpxъоjшщhsmптbegirozlгзиydaыuбуc".split(""),
                 },
                 {
 
-                        "ь$я|'уыащър>и(гсдцлнчжфхмё,о)юйкбштвэзп№е<".split(""),
-                        "hxщaw)stjr|vоiпzldзыgъбcуnитшpufo№<mгeqbky".split(""),
-                        "гxоъmseи hбraщvlpw<тofш|зut№jdcqykzыупnig)".split(""),
-                        "щbsпptuvdxkуeошзl№тjhig<mыayzcq гrfбnoи)ъw".split(""),
+                        "ьяуыащъригсдцлнчжфхмёоюйкбштвэзпе".split(""),
+                        "hxawstjrоiпzldзыgъбcnитшpufomeqby".split(""),
+                        "гxоъmsиhбraщvlpwтofшзutdcqykzыуig".split(""),
+                        "щbsпtuvdxуeошlтjhigыayzcqгrfбnoиw".split(""),
                 },
                 {
-                        "оиск№$бэ'взпаждъч<ырй(ш,ньщфёт)|хе>юуялмгц".split(""),
-                        "гх№ц'чзслешкпыь,юрщ$|ёу>адф<вижъбм)(оэтйня".split(""),
-                        "|mrщгscywу tzbxhag)oneбpтшыivъ<udjfпlзиоq№".split(""),
-                        "№h)oipveпwщгтtylъgоjn<u kaбbmqrзzxcdиуsыfш".split(""),
+                        "оискбэвзпаждъчырйшньщфётхеюуялмгц".split(""),
+                        "гхцчзслешкпыюрщёу>адф<вижъбмоэтйн".split(""),
+                        "mrщгscywуtzbxhagoneбpтшыъudjlзиоq".split(""),
+                        "oipeпwгтtylъgоjnkaбbmqзzxcdиуsыfш".split(""),
                 }
         };
 
-        String[] message = "УМЫШленные угрозы преследуют цель нанесения ущерба пользователям сети и подразделяются на активные и пассивные.".split("");
+        String[] message = "Умышленные угрозы преследуют цель нанесения ущерба пользователям сети и подразделяются на активные и пассивные.".split("");
 
 
         message = (encrypt(alphabet,key,matrixKey,message,"encrypt")).split("");
